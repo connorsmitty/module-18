@@ -11,7 +11,6 @@ const thoughtSchema = new mongoose.Schema({
         required: true
     },
     reactions: [{
-        type: String, // You can change this type to represent different types of reactions (e.g., like, love, haha, etc.)
         default: [],
     }],
     createdAt: {
